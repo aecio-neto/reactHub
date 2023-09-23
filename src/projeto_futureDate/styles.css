@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+button {
+  cursor: pointer;
+}
+
+span {
+  margin: 5px
+}
