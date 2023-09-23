@@ -1,9 +1,7 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
 import "./styles.css";
 import jonas from "./jonas.jpeg";
 
-function App() {
+export default function UserProfile() {
   return (
     <div className="card">
       <Avatar />
@@ -56,12 +54,3 @@ function Skill(props) {
     </p>
   );
 }
-
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
