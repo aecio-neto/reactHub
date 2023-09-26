@@ -5,6 +5,7 @@ import FutureDate from "./projetos/projeto3_futureDate/FutureDate"
 import FlashCards from "./projetos/projeto4_flashcards/FlashCards"
 import Accordion from "./projetos/projeto5_accordion/Accordion"
 import TipCalculator from "./projetos/projeto6_tipCalculator/TipCalculator"
+import PizzaMenu from "./projetos/projeto_pizzaMenu/PizzaMenu"
 import "./index.css"
 
 function App() {
@@ -14,32 +15,36 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/user-card">Cartão de Perfil de Usuário</Link>
+              <Link to="/projeto6">Calculadora de Gorjetas</Link>
             </li>
             <li>
-              <Link to="/steps-card">Steps Card</Link>
+              <Link to="/projeto5">Acordeão</Link>
             </li>
             <li>
-              <Link to="/data-futura">Data Futura</Link>
+              <Link to="/projeto4">Flash Cards</Link>
             </li>
             <li>
-              <Link to="/flash-cards">Flash Cards</Link>
+              <Link to="/projeto3">Data Futura</Link>
             </li>
             <li>
-              <Link to="/accordion">Acordeão</Link>
+              <Link to="/projeto2">Steps Card</Link>
             </li>
             <li>
-              <Link to="/calculadora-de-gorjetas">Calculadora de Gorjetas</Link>
+              <Link to="/projeto1">Cartão de Perfil de Usuário</Link>
+            </li>
+            <li>
+              <Link to="/pizza-menu">Pizza Menu</Link>
             </li>
           </ul>
         </nav>
         <Routes>
-          <Route path="/user-card" element={<UserProfile />} />
-          <Route path="/calculadora-de-gorjetas" element={<TipCalculator />} />
-          <Route path="/steps-card" element={<StepsCard />} />
-          <Route path="/data-futura" element={<FutureDate />} />
-          <Route path="/flash-cards" element={<FlashCards />} />
-          <Route path="/accordion" element={<Accordion />} />
+          <Route path="/projeto6" element={<TipCalculator />} />
+          <Route path="/projeto5" element={<Accordion />} />
+          <Route path="/projeto4" element={<FlashCards />} />
+          <Route path="/projeto3" element={<FutureDate />} />
+          <Route path="/projeto2" element={<StepsCard />} />
+          <Route path="/projeto1" element={<UserProfile />} />
+          <Route path="/pizza-menu" element={<PizzaMenu />} />
         </Routes>
       </div>
     </Router>
