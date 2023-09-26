@@ -59,7 +59,3 @@ function Button({ bgColor, textColor, onClick, children }) {
     </button>
   )
 }
-
-{/* <Button bgColor="#7950f2" textColor="#fff" onClick={handlePrev}>
-  <span>👈🏼</span>Prev
-</Button> */}
