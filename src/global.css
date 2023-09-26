@@ -1,0 +1,13 @@
+body {
+  padding: 40px;
+}
+
+.projects-container ul {
+  margin-bottom: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
