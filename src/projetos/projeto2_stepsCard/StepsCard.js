@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "./index.css";
 
 const messages = [
   "Aprender React ⚛️",
@@ -6,7 +7,7 @@ const messages = [
   "Investir o salário novo 🤑",
 ]
 
-export default function App() {
+export default function StepsCard() {
   const [step, setStep] = useState(1)
   const [isOpen, setIsOpen] = useState(true)
 
@@ -48,8 +49,6 @@ export default function App() {
   )
 }
 
-
-
 function Button({ bgColor, textColor, onClick, children }) {
   return (
     <button
@@ -61,6 +60,6 @@ function Button({ bgColor, textColor, onClick, children }) {
   )
 }
 
-<Button bgColor="#7950f2" textColor="#fff" onClick={handlePrev}>
+{/* <Button bgColor="#7950f2" textColor="#fff" onClick={handlePrev}>
   <span>👈🏼</span>Prev
-</Button>
+</Button> */}
