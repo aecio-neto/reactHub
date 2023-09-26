@@ -3,7 +3,7 @@ import "./index.css"
 
 // flashcards ---------------------//
 
-export default function App() {
+export default function FlashCards() {
   return (
     <div className="App">
       <FlashCardsContainer />
@@ -14,35 +14,35 @@ export default function App() {
 const questions = [
   {
     id: 3457,
-    question: "What language is React based on?",
+    question: "Em qual linguagem o React é baseado?",
     answer: "JavaScript",
   },
   {
     id: 7336,
-    question: "What are the building blocks of React apps?",
-    answer: "Components",
+    question: "Quais são os blocos de construção de aplicativos React?",
+    answer: "Componentes",
   },
   {
     id: 8832,
-    question: "What's the name of the syntax we use to describe a UI in React?",
+    question: "Qual é o nome da sintaxe que usamos para descrever uma UI no React?",
     answer: "JSX",
   },
   {
     id: 1297,
-    question: "How to pass data from parent to child components?",
+    question: "Como passar dados de componentes pai para componentes filhos?",
     answer: "Props",
   },
   {
     id: 9103,
-    question: "How to give components memory?",
-    answer: "useState hook",
+    question: "Como dar memória aos componentes?",
+    answer: "Hook useState",
   },
   {
     id: 2002,
     question:
-      "What do we call an input element that is completely synchronised with state?",
-    answer: "Controlled element",
-  },
+      "Como chamamos um elemento de entrada que está completamente sincronizado com o estado?",
+    answer: "Elemento controlado",
+  }
 ]
 
 // ui montado

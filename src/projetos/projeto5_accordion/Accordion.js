@@ -35,6 +35,7 @@ function Accordion() {
             index={index}
             onToggle={() => setOpenIndex(openIndex === index ? null : index)}
             isOpen={openIndex === index}
+            key={index}
           />
         ))}
     </ul>
