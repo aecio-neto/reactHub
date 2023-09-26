@@ -1,14 +1,19 @@
 ## Bem-vindo ao meu repositório de projetos React
 
-Este repositório é uma coleção de diversos projetos React nos quais trabalhei. Cada projeto demonstra diferentes aspectos do React, desde o gerenciamento de estado até a roteirização e muito mais.
+Este repositório é uma forma de organizar e mostrar os projetos feitos em React que estou desenvolvendo. 
 
-### Projetos Incluídos:
+A estrutura e os estilos ainda estão sendo organizados. 
 
-Estou inserindo aos poucos, ainda estabelecendo uma estrutura adequada para o diretório:
+No link abaixo é possível ver como está o andamento. 
 
-Calculadora de Gorjeta - Uma aplicação simples para calcular gorjetas com base na qualidade do serviço.
+[Ver ao vivo](https://main--react-hub.netlify.app/)
 
-Cartão de perfil de usuário - Um componente para mostrar informações sobre o usuário
+<!-- ### Projetos
+
+Estou inserindo aos poucos, ainda estabelecendo uma estrutura adequada para o diretório
+
+É possível ver alguns projetos ao vivo. -->
+
 
 ### Como Executar os Projetos
 
