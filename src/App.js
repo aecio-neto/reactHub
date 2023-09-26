@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
 import UserProfile from "./projetos/projeto1_userProfile/UserProfile"
-import TipCalculator from "./projetos/projeto6_tipCalculator/TipCalculator"
 import StepsCard from "./projetos/projeto2_stepsCard/StepsCard"
+import FutureDate from "./projetos/projeto3_futureDate/FutureDate"
+import TipCalculator from "./projetos/projeto6_tipCalculator/TipCalculator"
 import "./index.css"
 
 function App() {
@@ -19,12 +20,16 @@ function App() {
             <li>
               <Link to="/steps-card">Steps Card</Link>
             </li>
+            <li>
+              <Link to="/data-futura">Data Futura</Link>
+            </li>
           </ul>
         </nav>
         <Routes>
           <Route path="/user-card" element={<UserProfile />} />
           <Route path="/calculadora-de-gorjetas" element={<TipCalculator />} />
           <Route path="/steps-card" element={<StepsCard />} />
+          <Route path="/data-futura" element={<FutureDate />} />
         </Routes>
       </div>
     </Router>

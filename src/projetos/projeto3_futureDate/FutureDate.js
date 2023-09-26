@@ -1,7 +1,7 @@
 import { useState } from "react"
 import "./styles.css"
 
-export default function App() {
+export default function FutureDate() {
   const [days, setDays] = useState(1)
   const [interval, setInterval] = useState(1)
   const date = getFormatedFutureDate(days)

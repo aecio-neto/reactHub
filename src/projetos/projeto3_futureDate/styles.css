@@ -9,6 +9,8 @@ div {
 
 button {
   cursor: pointer;
+  padding: 0 5px;
+  margin: 0 5px;
 }
 
 span {
