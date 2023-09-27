@@ -1,13 +1,48 @@
-body {
-  padding: 40px;
-}
-
-.projects-container ul {
-  margin-bottom: 50px;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+.projects-container ul {
+  margin-top: 20px;
+}
+
+.projects-container p {
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  border-bottom: 5px solid black;
+}
+
+.projects-container li {
+  margin-bottom: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.projects-container a {
+  text-decoration: none;
+}
+
+/* global.css */
+.table-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
